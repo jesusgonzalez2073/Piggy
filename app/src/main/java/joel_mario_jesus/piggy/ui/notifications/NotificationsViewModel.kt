@@ -1,4 +1,4 @@
-package luna.joel.piggy.ui.notifications
+package joel_mario_jesus.piggy.ui.notifications
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
