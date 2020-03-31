@@ -1,4 +1,4 @@
-<resources xmlns:android="http://schemas.android.com/apk/res/android">
+<resources>
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -8,56 +8,4 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-
-        <style name="Tiniciarsesion">
-            <item name="android:fontFamily">Montserrat</item>
-            <item name="android:textColor">#FFFFFFFF</item>
-            <item name="android:textSize">35.5sp</item>
-            <item name="android:lineSpacingMultiplier">0.23</item>
-        </style>
-
-
-        <style name="letra">
-            <item name="android:fontFamily">Roboto</item>
-            <item name="android:textColor">#FFFFFFFF</item>
-            <item name="android:textSize">24sp</item>
-            <item name="android:lineSpacingMultiplier">0.33</item>
-        </style>
-
-
-    <!-- XML file that applies the style to the TextView (saved in res/layout) -->
-    <?xml version="1.0" encoding="utf-8"?>
-    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:width="205.8dp" android:height="29.18dp" android:text="Correo electrónico" android:style="@style/"/>
-
-    <!-- XML file for the style (saved in res/values/) -->
-    <?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <style name="Binicioregistro">
-            <item name="android:fontFamily">Roboto</item>
-            <item name="android:textColor">#FFFFFFFF</item>
-            <item name="android:textSize">21sp</item>
-            <item name="android:lineSpacingMultiplier">0.38</item>
-        </style>
-    </resources>
-
-    <!-- XML file that applies the style to the TextView (saved in res/layout) -->
-    <?xml version="1.0" encoding="utf-8"?>
-    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:width="174.34dp" android:height="25.5dp" android:text="Iniciar sesión" android:style="@style/"/>
-
-    <!-- XML file for the style (saved in res/values/) -->
-    <?xml version="1.0" encoding="utf-8"?>
-    <resources>
-        <style name="olvidacontra">
-            <item name="android:fontFamily">Lato</item>
-            <item name="android:textColor">#FF092FCA</item>
-            <item name="android:textSize">18sp</item>
-            <item name="android:lineSpacingMultiplier">1.28</item>
-        </style>
-    </resources>
-
-    <!-- XML file that applies the style to the TextView (saved in res/layout) -->
-    <?xml version="1.0" encoding="utf-8"?>
-    <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:width="205dp" android:height="22dp" android:text="¿Olvidaste tu  contraseña?" android:style="@style/"/>
-
 </resources>
-
