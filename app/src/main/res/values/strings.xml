@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Piggy</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_stadistics">Estadisticas</string>
+    <string name="title_Wishes">Deseos</string>
+    <string name="Ahorros">Mi Deseo es:</string>
+</resources>

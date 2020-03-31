@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estadisticas"
+        android:textColor="@color/NegroTexto"
+        android:textSize="20dp" />
+
+    <TextView
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mis Recordatorios"
+        android:textColor="@color/DarkBlue" />
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Se aproxima la fecha a pagar"
+        android:textSize="20dp"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/Screenshot_2"
+        />
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:textColor="@color/BlancoLetra"
+            android:textSize="25sp"
+            android:text="Pagar la luz:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="50pesostes"
+            android:textColor="@color/BlancoLetra"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="25sp"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:textColor="@color/BlancoLetra"
+            android:textSize="25sp"
+            android:text="Pagar la luz:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="50pesostes"
+            android:textColor="@color/BlancoLetra"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="25sp"
+        >
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:textColor="@color/BlancoLetra"
+            android:textSize="25sp"
+            android:text="Pagar la luz:" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="50pesostes"
+            android:textColor="@color/BlancoLetra"
+            android:textSize="25sp" />
+    </TableRow>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25sp"
+        android:background="@drawable/round_botton3"
+        android:text="Agregar un Recordatorio +"
+        android:textColor="@color/BlancoLetra"
+        />
+</LinearLayout>

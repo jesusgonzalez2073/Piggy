@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/headinicio" />
+
+            <TextView
+                style="@style/Tiniciarsesion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="80px"
+                android:paddingTop="140px"
+                tools:text="Inicio de sesión" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/contenidoLoginLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity" >
+
+            <EditText
+                android:id="@+id/editText4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="11"
+                android:inputType="textEmailAddress"
+                android:textColor="@color/colorAccent"
+                android:background="@drawable/correo"/>
+        </RelativeLayout>
+
+</LinearLayout>
