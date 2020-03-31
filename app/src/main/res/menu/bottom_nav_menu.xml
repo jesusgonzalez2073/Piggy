@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_crop_square_black_24dp"
+        android:title="@string/title_stadistics" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_control_point_blue_24dp"
+        android:title="Agregar" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_crop_square_black_24dp"
+        android:title="@string/title_Wishes"
+
+        />
+
+
+</menu>
